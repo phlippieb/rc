@@ -1,0 +1,4 @@
+rc
+==
+
+Setups, deaults, etc.
