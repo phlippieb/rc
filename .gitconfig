@@ -1,0 +1,47 @@
+[user]
+	name = Phlippie Bosman
+	email = phlippieb@net1.com
+[apply]
+	whitespace = nowarn
+[color]
+   diff = always
+	status = always
+	branch = always
+	ui = always
+	commit = always
+[color "branch"]
+	current = red
+   local = cyan
+   remote = blue bold
+	current = yellow
+	current = cyan
+	current = blue
+	current = blue
+	current = cyan
+	current = yellow
+[color "diff"]
+   meta = yellow bold
+   frag = magenta bold
+   old = red bold
+   new = green bold
+[color "status"]
+   branch = cyan
+   added = green
+   changed = yellow
+   untracked = blue bold
+
+[alias]
+	st = status -s
+   br = branch
+	ls = log --oneline --decorate
+	difstat = diff --stat
+	d = diff --stat HEAD
+	lg = log --decorate
+	cm = commit -m
+	logg = 
+	staged = diff --staged
+	df = diff HEAD
+	lgg = log --graph --all --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(bold white). %an%C(reset)%C(bold yellow)%d%C(reset)' --abbrev-commit --date=relative
+	a = config --get-regexp alias
+	ba = branch -a
+   
