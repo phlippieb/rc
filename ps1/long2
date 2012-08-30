@@ -1,0 +1,2 @@
+export PS1="\[\e[1;32m\]\u\[\e[0;32m\]@\h\[\e[0;37m\]\w\[\e[1;32m\]\$\[\e[0m"
+echo ". /home/phlippieb/ps1/long2" > /home/phlippieb/ps1/current
