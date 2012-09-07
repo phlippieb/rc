@@ -1,2 +1,2 @@
-echo ". /home/phlippieb/ps1/short" > /home/phlippieb/ps1/current
+echo ". $HOME/ps1/short" > $HOME/ps1/current
 export PS1="\[\`if [[ \$? = "0" ]]; then echo '\e[1;32m\]\$'\[; else echo '\e[1;31m\]\$'\[ ; fi\`\[\033[s\e[0;37m                                    \w\033[u\e[m\]"
