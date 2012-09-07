@@ -23,3 +23,6 @@ fi
 
 . /home/phlippieb/ps1/current
 # . ./misc/ec
+
+# set grep colors to something prettier
+export GREP_COLORS="mt=01;34:fn=01;30"
