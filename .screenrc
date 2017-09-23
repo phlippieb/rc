@@ -1,0 +1,43 @@
+# Enable mouse scrolling:
+termcapinfo xterm* ti@:te@
+
+# Clear screen when vim/less/etc quits:
+altscreen on
+
+# Status line that shows windows:
+hardstatus alwayslastline
+hardstatus string '%{wk}%?%-Lw%?%{=b kR}(%{W}%n*%f %t%?(%u)%?%{=b kR})%{= w}%?%+Lw%?%? %{g}]'
+
+# Disable the visual bell
+vbell off
+
+# Reference -- starting a screen from bash:
+
+#   Start a named session:
+#   screen -S <name>
+
+#   List sessions:
+#   screen -ls
+
+#   Connect to a named session:
+#   screen -r <name>
+
+
+# Reference -- navigating within screen:
+
+#   Name the current window:
+#   c-a A
+
+#   Create a new window:
+#   c-a c
+
+#   Quick-switch window:
+#   c-a c-a
+
+#   Next window, previous window, specific window:
+#   c-a n
+#   c-a p
+#   c-a <window number>
+
+#   Disconnect screen:
+#   c-a d
